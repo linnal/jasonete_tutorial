@@ -14,6 +14,22 @@
       }
     },
     "body": {
+      "header": {
+        "title": "Jasonette",
+        "style": {
+          "background": "#8bb92d",
+          "color": "#ffffff",
+          "font": "AvenirNext-Bold",
+          "size": "14"
+        },
+        "menu": {
+          "text": "View JSON",
+          "href": {
+            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
+            "view": "web"
+          }
+        }
+      },
       "sections": [
         {
           "items": [
