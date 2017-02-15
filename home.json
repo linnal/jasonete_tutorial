@@ -38,8 +38,14 @@
       "sections": [{
           "items": {
             "{{#each food}}": {
-              "type": "label",
-              "text": "{{name}}"
+              "type": "horizontal",
+              "style": {
+                "spacing": "20"
+              },
+              "components": [{
+                "type": "label",
+                "text": "{{name}}"
+              }]
             }
           }
         }]
