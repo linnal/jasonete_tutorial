@@ -22,9 +22,14 @@
             },
             "menu": {
               "text": "View JSON",
-              "href": {
-                "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-                "view": "web"
+              "action": {
+                "type": "$network.request",
+                "options": {
+                  "url": "https://jasonbase.com/things/jYJ.json"
+                },
+                "success": {
+                  "type": "$render"
+                }
               }
             }
           },
@@ -34,6 +39,15 @@
                     "type": "horizontal",
                     "style": {
                       "align": "center"
+                    },
+                    "action": {
+                      "type": "$network.request",
+                      "options": {
+                        "url": "https://jasonbase.com/things/jYJ.json"
+                      },
+                      "success": {
+                        "type": "$render"
+                      }
                     },
                     "components": [
                       {
