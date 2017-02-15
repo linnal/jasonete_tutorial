@@ -4,14 +4,7 @@
       "title": "Hello World",
       "description": "First tutorial with Jasonette",
       "offline": "true",
-      "styles": {
-        "styled_row": {
-          "font": "HelveticaNeue",
-          "size": "20",
-          "color": "#3e4041",
-          "padding": "10"
-        }
-      },
+      "styles": {},
       "data": {
         "users": {
           "@": "https://github.com/linnal/jasonete_tutorial/raw/master/data/food.json"
@@ -40,7 +33,10 @@
                   "{{#each users}}": {
                     "type": "horizontal",
                     "style": {
-                      "spacing": "10"
+                      "font": "HelveticaNeue",
+                      "size": "20",
+                      "color": "#3e4041",
+                      "padding": "10"
                     },
                     "components": [{
                       "type": "label",
