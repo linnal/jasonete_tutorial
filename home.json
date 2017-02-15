@@ -8,8 +8,13 @@
         "styled_row": {
           "font": "HelveticaNeue",
           "size": "20",
-          "color": "#ff0000",
+          "color": "#3e4041",
           "padding": "10"
+        }
+      },
+      "data": {
+        "food": {
+         "@": "https://raw.githubusercontent.com/linnal/jasonete_tutorial/master/data/food.json"
         }
       }
     },
@@ -17,7 +22,7 @@
       "header": {
         "title": "Jasonette",
         "style": {
-          "background": "#8bb92d",
+          "background": "#b4439f",
           "color": "#ffffff",
           "font": "AvenirNext-Bold",
           "size": "14"
@@ -30,27 +35,14 @@
           }
         }
       },
-      "sections": [
-        {
-          "items": [
-            {
+      "sections": [{
+          "items": {
+            "{{#each food}}": {
               "type": "label",
-              "text": "This is row 1",
-              "class": "styled_row"
-            },
-            {
-              "type": "label",
-              "text": "This is row 2",
-              "class": "styled_row"
-            },
-            {
-              "type": "label",
-              "text": "This is row 3",
-              "class": "styled_row"
+              "text": "{{name}}"
             }
-          ]
-        }
-      ]
+          }
+        }]
     }
   }
 }
