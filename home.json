@@ -33,14 +33,16 @@
                   "{{#each users}}": {
                     "type": "horizontal",
                     "style": {
-                      "font": "HelveticaNeue",
-                      "size": "20",
-                      "color": "#3e4041",
                       "padding": "10"
                     },
                     "components": [{
                       "type": "label",
-                      "text": "{{name}}"
+                      "text": "{{name}}",
+                      "style": {
+                        "font": "HelveticaNeue",
+                        "size": "14",
+                        "color": "#3e4041"
+                      }
                     },
                     {
                       "type": "label",
