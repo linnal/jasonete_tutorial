@@ -22,14 +22,8 @@
             },
             "menu": {
               "text": "View JSON",
-              "action": {
-                "type": "$network.request",
-                "options": {
-                  "url": "https://jasonbase.com/things/jYJ.json"
-                },
-                "success": {
-                  "type": "$render"
-                }
+              "href": {
+                "url": "https://jasonette.github.io/Jasonpedia/action/addressbook.json"
               }
             }
           },
@@ -40,14 +34,8 @@
                     "style": {
                       "align": "center"
                     },
-                    "action": {
-                      "type": "$network.request",
-                      "options": {
-                        "url": "https://jasonbase.com/things/jYJ.json"
-                      },
-                      "success": {
-                        "type": "$render"
-                      }
+                    "href": {
+                      "url": "https://jasonette.github.io/Jasonpedia/action/addressbook.json"
                     },
                     "components": [
                       {
