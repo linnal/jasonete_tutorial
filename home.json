@@ -23,46 +23,46 @@
             "profile": "https://pbs.twimg.com/profile_images/693649835086360577/xPofOC6p.png",
             "username": "catsnacks"
           }]
-      }
-    },
-    "templates": {
-      "body": {
-        "header": {
-          "title": "Jasonette",
-          "style": {
-            "background": "#b4439f",
-            "color": "#ffffff",
-            "font": "AvenirNext-Bold",
-            "size": "14"
-          },
-          "menu": {
-            "text": "View JSON",
-            "href": {
-              "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-              "view": "web"
-            }
-          }
-        },
-        "sections": [{
-            "items": {
-                "{{#each users}}": {
-                  "type": "horizontal",
-                  "style": {
-                    "spacing": "10"
-                  },
-                  "components": [{
-                    "type": "image",
-                    "style": {
-                      "width": "50"
-                    },
-                    "url": "{{profile}}"
-                  }, {
-                    "type": "label",
-                    "text": "{{username}}"
-                  }]
-                }
+      },
+      "templates": {
+        "body": {
+          "header": {
+            "title": "Jasonette",
+            "style": {
+              "background": "#b4439f",
+              "color": "#ffffff",
+              "font": "AvenirNext-Bold",
+              "size": "14"
+            },
+            "menu": {
+              "text": "View JSON",
+              "href": {
+                "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
+                "view": "web"
               }
-          }]
+            }
+          },
+          "sections": [{
+              "items": {
+                  "{{#each users}}": {
+                    "type": "horizontal",
+                    "style": {
+                      "spacing": "10"
+                    },
+                    "components": [{
+                      "type": "image",
+                      "style": {
+                        "width": "50"
+                      },
+                      "url": "{{profile}}"
+                    }, {
+                      "type": "label",
+                      "text": "{{username}}"
+                    }]
+                  }
+                }
+            }]
+        }
       }
     }
   }
