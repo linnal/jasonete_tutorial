@@ -5,7 +5,7 @@
       "description": "First tutorial with Jasonette",
       "offline": "true",
       "styles": {},
-      "templates": {
+      "templates":{
         "body": {
           "header": {
             "title": "Jasonette",
@@ -16,16 +16,22 @@
               "size": "14"
             }
           },
-           "layers": [
+          "sections": [
             {
-              "type": "label",
-              "text": "ciao",
-              "style": {
-                "top": "100",
-                "left": "50%-25",
-                "width": "50",
-                "padding": "10"
-              }
+              "items": [
+                {
+                  "type": "label",
+                  "text": "{{$params.name}}"
+                },
+                {
+                  "type": "label",
+                  "text": "This is row 2"
+                },
+                {
+                  "type": "label",
+                  "text": "This is row 3"
+                }
+              ]
             }
           ]
         }
