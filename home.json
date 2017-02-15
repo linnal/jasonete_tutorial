@@ -1,0 +1,35 @@
+{
+  "$jason": {
+    "head": {
+      "title": "Hello World",
+      "description": "First tutorial with Jasonette",
+      "icon": "https://github.com/linnal/jasonete_tutorial/blob/master/app_icon.png",
+      "offline": "true",
+      "styles": {
+        "styled_row": {
+          "font": "HelveticaNeue",
+          "size": "20",
+          "color": "#ff0000",
+          "padding": "10"
+        }
+      }
+    },
+    "body": {
+      "sections": [{
+        "items": [{
+          "type": "label",
+          "text": "This is row 1",
+          "class": "styled_row"
+        }, {
+          "type": "label",
+          "text": "This is row 2",
+          "class": "styled_row"
+        }, {
+          "type": "label",
+          "text": "This is row 3",
+          "class": "styled_row"
+        }]
+      }]
+    }
+  }
+}
