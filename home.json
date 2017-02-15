@@ -47,7 +47,7 @@
                       {
                         "type": "space",
                         "style": {
-                          "width": "10"
+                          "width": "1"
                         }
                       },
                       {
@@ -57,7 +57,7 @@
                           "font": "HelveticaNeue",
                           "size": "18",
                           "color": "#3e4041",
-                          "align":"left"
+                          "align": "center"
                         }
                       },
                       {
