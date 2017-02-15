@@ -4,43 +4,32 @@
       "title": "Hello World",
       "description": "First tutorial with Jasonette",
       "offline": "true",
-      "styles": {}
-    },
-    "body": {
-      "header": {
-        "title": "Jasonette",
-        "style": {
-          "background": "#b4439f",
-          "color": "#ffffff",
-          "font": "AvenirNext-Bold",
-          "size": "14"
-        },
-        "menu": {
-          "text": "View JSON",
-          "href": {
-            "url": "https://github.com/Jasonette/Jasonpedia/blob/gh-pages/demo.json",
-            "view": "web"
-          }
-        }
-      },
-      "sections": [
-        {
-          "items": [
+      "styles": {},
+      "templates": {
+        "body": {
+          "header": {
+            "title": "Jasonette",
+            "style": {
+              "background": "#b4439f",
+              "color": "#ffffff",
+              "font": "AvenirNext-Bold",
+              "size": "14"
+            }
+          },
+           "layers": [
             {
               "type": "label",
-              "text": "This is row 1"
-            },
-            {
-              "type": "label",
-              "text": "This is row 2"
-            },
-            {
-              "type": "label",
-              "text": "This is row 3"
+              "text": "{{$params.name}}",
+              "style": {
+                "top": "100",
+                "left": "50%-25",
+                "width": "50",
+                "padding": "10"
+              }
             }
           ]
         }
-      ]
+      }
     }
   }
 }

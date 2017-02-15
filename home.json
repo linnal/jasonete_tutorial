@@ -39,7 +39,10 @@
                       "align": "center"
                     },
                     "href": {
-                      "url": "https://raw.githubusercontent.com/linnal/jasonete_tutorial/master/food_detail.json"
+                      "url": "https://raw.githubusercontent.com/linnal/jasonete_tutorial/master/food_detail.json",
+                      "options":{
+                        "name": "{{name}}"
+                      }
                     },
                     "components": [
                       {
