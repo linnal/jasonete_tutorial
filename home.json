@@ -42,10 +42,8 @@
               "style": {
                 "spacing": "20"
               },
-              {
-                "type": "label",
-                "text": "{{name}}"
-              }
+              "type": "label",
+              "text": "{{name}}"
             }
           }
         }]
