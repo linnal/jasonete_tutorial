@@ -1,18 +1,22 @@
 [
   {
     "name": "apple",
-    "quantity": 5
+    "quantity": 5,
+    "image_url": "https://github.com/linnal/jasonete_tutorial/raw/master/assets/apple.png"
   },
   {
     "name": "orange",
-    "quantity": 3
+    "quantity": 3,
+    "image_url": "https://github.com/linnal/jasonete_tutorial/raw/master/assets/orange.png"
   },
   {
     "name": "carrot",
-    "quantity": 6
+    "quantity": 6,
+    "image_url": "https://github.com/linnal/jasonete_tutorial/raw/master/assets/carrot.png"
   },
   {
     "name": "avocado",
-    "quantity": 2
+    "quantity": 2,
+    "image_url": "https://github.com/linnal/jasonete_tutorial/raw/master/assets/avokado.png"
   }
 ]

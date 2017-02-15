@@ -35,20 +35,29 @@
                     "style": {
                       "padding": "10"
                     },
-                    "components": [{
-                      "type": "label",
-                      "text": "{{name}}",
-                      "style": {
-                        "font": "HelveticaNeue",
-                        "size": "14",
-                        "color": "#ff0000"
-                      }
-                    },
-                    {
-                      "type": "label",
-                      "text": "{{quantity}}",
-                      "style": {"align":"right"}
-                    }]
+                    "components": [
+                      {
+                        "type": "image",
+                        "url": "{{image_url}}",
+                        "style": {
+                          "width": "50",
+                          "height": "50"
+                        }
+                      },
+                      {
+                        "type": "label",
+                        "text": "{{name}}",
+                        "style": {
+                          "font": "HelveticaNeue",
+                          "size": "18",
+                          "color": "#3e4041"
+                        }
+                      },
+                      {
+                        "type": "label",
+                        "text": "{{quantity}}",
+                        "style": {"align":"right"}
+                      }]
                   }
                 }
             }]
