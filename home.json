@@ -13,9 +13,16 @@
         }
       },
       "data": {
-        "food": {
-         "@": "https://raw.githubusercontent.com/linnal/jasonete_tutorial/master/data/food.json"
-        }
+        "users": [{
+            "profile": "https://pbs.twimg.com/profile_images/557061751150112768/eMwi4Xz2_400x400.jpeg",
+            "username": "gliechtenstein"
+          }, {
+            "profile": "https://pbs.twimg.com/profile_images/660748555452223488/seiYgVbF.png",
+            "username": "thinkpiecebot"
+          }, {
+            "profile": "https://pbs.twimg.com/profile_images/693649835086360577/xPofOC6p.png",
+            "username": "catsnacks"
+          }]
       }
     },
     "body": {
@@ -37,15 +44,23 @@
       },
       "sections": [{
           "items": {
-            "{{#each food}}": {
-              "type": "label",
-              "text": "{{name}}",
-              "style": {
-                "color": "#ff0000",
-                "size": "12"
+              "{{#each users}}": {
+                "type": "horizontal",
+                "style": {
+                  "spacing": "10"
+                },
+                "components": [{
+                  "type": "image",
+                  "style": {
+                    "width": "50"
+                  },
+                  "url": "{{profile}}"
+                }, {
+                  "type": "label",
+                  "text": "{{username}}"
+                }]
               }
             }
-          }
         }]
     }
   }
