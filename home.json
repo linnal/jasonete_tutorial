@@ -38,12 +38,12 @@
       "sections": [{
           "items": {
             "{{#each food}}": {
-              "type": "horizontal",
-              "style": {
-                "spacing": "20"
-              },
               "type": "label",
-              "text": "{{name}}"
+              "text": "{{name}}",
+              "style": {
+                "color": "#ff0000",
+                "size": "12"
+              }
             }
           }
         }]
