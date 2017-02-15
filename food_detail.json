@@ -19,7 +19,7 @@
            "layers": [
             {
               "type": "label",
-              "text": "{{$params.name}}",
+              "text": "ciao",
               "style": {
                 "top": "100",
                 "left": "50%-25",
