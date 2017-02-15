@@ -45,6 +45,11 @@
                     "components": [{
                       "type": "label",
                       "text": "{{name}}"
+                    },
+                    {
+                      "type": "label",
+                      "text": "{{quantity}}",
+                      "style": {"align":"right"}
                     }]
                   }
                 }
