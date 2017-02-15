@@ -45,6 +45,12 @@
                         }
                       },
                       {
+                        "type": "space",
+                        "style": {
+                          "height": "30"
+                        }
+                      },
+                      {
                         "type": "label",
                         "text": "{{name}}",
                         "style": {
