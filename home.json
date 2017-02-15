@@ -42,10 +42,10 @@
               "style": {
                 "spacing": "20"
               },
-              "components": [{
+              {
                 "type": "label",
                 "text": "{{name}}"
-              }]
+              }
             }
           }
         }]
